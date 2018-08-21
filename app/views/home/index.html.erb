@@ -1,0 +1,777 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <!--Fonts-->
+  <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,700' rel='stylesheet' type='text/css'>
+  <!--Owl Carousel-->
+  <style>
+    [data-sr] {
+      visibility: hidden;
+    }
+  </style>
+
+</head>
+<body>
+
+<!--/HEADER SECTION -->
+<header class="header">
+  <div class="container">
+    <div class="navbar navbar-default" role="navigation">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+            <%= link_to image_tag("logo.jpg", alt: ""), class:'navbar-brand' %>
+
+        </div><!-- end navbar-header -->
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a class="active"  href="#home" >Home</a></li>
+            <li><a data-scroll href="#services" >Services</a></li>
+            <li><a data-scroll href="#about-us" >About</a></li>
+            <li><a data-scroll href="#latest-works" >Products</a></li>
+            <li><a data-scroll href="#recent-posts" >Blog</a></li>
+            <li><a data-scroll href="#testimonial" >Clients</a></li>
+            <li><a data-scroll href="#contact" >Contact</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div><!--/.container-fluid -->
+    </div>
+  </div><!-- end container -->
+</header><!-- end header -->
+
+<!--/SLIDER SECTION -->
+<section id="home" class="sliderwrapper clearfix">
+
+  <div class="home-overlay"></div>
+
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-md-8 col-md-offset-2">
+        <div class="block" >
+          <h1 class="home-title wow fadeInDown">Welcome to <span class=element></span></h1>
+
+          <p class="title-small wow fadeInDown" data-wow-delay="0.3s">Your Favourite Creative
+            Agency Template</p>
+
+          <div class="wow fadeInDown" data-wow-delay="0.3s">
+            <a class="btn btn-action" href="#"
+               role="button">Get Started
+            </a>
+          </div>
+        </div>
+      </div>
+      <!-- .row close -->
+    </div>
+  </div>
+
+</section><!-- end Home -->
+
+<section id="services">
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-sm-12 ">
+        <h2 class="section-title"> Services</h2>
+
+        <p class="sec-subtitle">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
+      </div>
+      <div class="col-sm-4"  data-sr="enter left, hustle 20px">
+        <div class="service">
+          <i class="fa fa-font service-icon"></i>
+
+          <h5 class="title">Clean Typography</h5>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo
+            inventore harum ex magni, dicta impedit. Lorem ipsum.</p>
+        </div>
+      </div>
+      <div class="col-sm-4"  data-sr="enter top, hustle 20px">
+        <div class="service">
+          <i class="fa fa-code service-icon"></i>
+
+          <h5 class="title">Rock Solid Code</h5>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo
+            inventore harum ex magni, dicta impedit. Lorem ipsum.</p>
+        </div>
+      </div>
+      <div class="col-sm-4"  data-sr="enter right, hustle 20px">
+        <div class="service">
+          <i class="fa fa-support service-icon"></i>
+
+          <h5 class="title">Expert Support</h5>
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo
+            inventore harum ex magni, dicta impedit. Lorem ipsum.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="about-us">
+  <div class="container">
+    <div class="row ">
+      <div class="col-sm-12 text-center">
+        <h2 class="section-title">About us</h2>
+
+        <p class="sec-subtitle">Lorem ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
+      </div>
+      <div class="col-sm-6">
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam nonumy eirmod tempor invidunt ut
+          labore et dolore aliquyam erat, sed diam voluptua. At vero eos et accusam et justo dolores et ea
+          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
+          ipsum dolor et dolore aliquyam erat. Lorem ipsum dolor sit amet. Lorem ipsum eat.</p>
+      </div>
+      <div class="col-sm-6">
+        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sediam nonumy eirmod tempor invidunt ut
+          labore et dolore aliquyam erat, sed diam voluptua. At vero eos et accusam et justo dolores et ea
+          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
+          ipsum dolor et dolore aliquyam erat. Lorem ipsum dolor sit amet. Lorem ipsum eat.</p>
+      </div>
+      <div class="col-sm-12 text-center" >
+        <div id="owl-demo">
+          <div class="item" data-sr="enter left, hustle 60px">
+            <div class="team-thumb">
+              <%= image_tag "team1.png", alt: "Owl Image" %>
+
+              <div class="team-social">
+                <ul class="list-inline">
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="owl-caption">
+              <h5>Md. Khalil Uddin</h5>
+
+              <p>Head of Ideas</p>
+            </div>
+
+          </div>
+          <div class="item" data-sr="enter left, hustle 60px">
+            <div class="team-thumb">
+              <%= image_tag "team1.png", alt: "Owl Image" %>
+              <div class="team-social">
+                <ul class="list-inline">
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="owl-caption">
+              <h5>Md. Khalil Uddin</h5>
+
+              <p>Head of Ideas</p>
+            </div>
+
+          </div>
+          <div class="item" data-sr="enter right, hustle 60px">
+            <div class="team-thumb">
+              <%= image_tag "team4.png", alt: "Owl Image" %>
+              <div class="team-social">
+                <ul class="list-inline">
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="owl-caption">
+              <h5>Md. Khalil Uddin</h5>
+
+              <p>Head of Ideas</p>
+            </div>
+
+          </div>
+          <div class="item" data-sr="enter right, hustle 60px">
+            <div class="team-thumb">
+              <%= image_tag "team3.png", alt: "Owl Image" %>
+              <div class="team-social">
+                <ul class="list-inline">
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="owl-caption">
+              <h5>Md. Khalil Uddin</h5>
+
+              <p>Head of Ideas</p>
+            </div>
+
+          </div>
+          <div class="item">
+            <div class="team-thumb">
+              <%= image_tag "team4.png", alt: "Owl Image" %>
+              <div class="team-social">
+                <ul class="list-inline">
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="owl-caption">
+              <h5>Md. Khalil Uddin</h5>
+
+              <p>Head of Ideas</p>
+            </div>
+
+          </div>
+          <div class="item">
+            <div class="team-thumb">
+              <%= image_tag "team2.png", alt: "Owl Image" %>
+
+              <div class="team-social">
+                <ul class="list-inline">
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="owl-caption">
+              <h5>Md. Khalil Uddin</h5>
+
+              <p>Head of Ideas</p>
+            </div>
+
+          </div>
+          <div class="item">
+            <div class="team-thumb">
+              <%= image_tag "team2.png", alt: "Owl Image" %>
+
+              <div class="team-social">
+                <ul class="list-inline">
+                  <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="owl-caption">
+              <h5>Md. Khalil Uddin</h5>
+
+              <p>Head of Ideas</p>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+<section id="latest-works">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <h1 class="section-title">Latest Products</h1>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="works-category"  data-sr='enter top, wait 0.2s'>
+        <ul class=" list-inline">
+          <li><a href="#" data-filter=".milling" class="current">Milling</a></li>
+          <li><a href="#" data-filter=".branding">Granulation</a></li>
+          <li><a href="#" data-filter=".design">Sifting</a></li>
+          <li><a href="#" data-filter=".development">Drying</a></li>
+          <li><a href="#" data-filter=".strategy">Other Products</a></li>
+        </ul>
+      </div>
+      <div class="works-area" >
+        <div class="col-md-4 col-sm-6 col-xs-12 milling">
+          <div class="works">
+            <%= image_tag "multi_screen.png", alt: "" %>
+            <div class="work-overlay text-center">
+              <div class="overlay-caption">
+                <h4>Multimill screen</h4>
+
+                <p>These are available in various Sizes including lab model. Most common size is 265mm diameter * 140mm Height available from 0.1mm to 25.0 mm hole diameter in perforation sizes below 0.5mm know as Laser technology (Laser Machine Hole ) available Materials with LAB tested certification.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 milling" >
+          <div class="works">
+            <%= image_tag "cad_mil.png", alt: "" %>
+            <div class="work-overlay text-center">
+              <div class="overlay-caption">
+                <h4>Cad mill screen</h4>
+
+                <p>These are available in various sizes including lab model. The most common size is 150mm width *561mm length available from 0.1mm to 25mm hole diameter. In perforation the sizes below 0.5mm known as laser technology (laser Machine Hole) available Materials with LAB tested certification.</p>
+<!--                 <a class="btn-view" href="#">VIEW <i class="fa fa-angle-right"></i></a>
+ -->              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 milling" >
+          <div class="works">
+            <%= image_tag "pul_scr.png", alt: "" %>
+            <div class="work-overlay text-center">
+              <div class="overlay-caption">
+                <h4>Pulveriser screen</h4>
+
+                <p>These are available in various sizes including lab model. The most common size is 175mm width * 480mm length available from 0.1mm to 25mm hole diameter perforation. The size below 0.5mm known as laser technology (laser Machine hole) available with complete set of certificate.</p>
+<!--                 <a class="btn-view" href="#">VIEW <i class="fa fa-angle-right"></i></a>
+ -->              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 milling" >
+          <div class="works">
+            <%= image_tag "cli_scr.png", alt: "" %>
+            <div class="work-overlay text-center">
+              <div class="overlay-caption">
+                <h4>Clitmill screen</h4>
+
+                <p>These are available in various sizes. The most common size is 91mm width *426mm length available from 0.1mm to 25mm hole diameter perforation. The size below 0.5mm can be had in the laser perforation known as laser technology available with complete set of certificate.</p>
+<!--                 <a class="btn-view" href="#">VIEW <i class="fa fa-angle-right"></i></a>
+ -->              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 milling" >
+          <div class="works">
+            <%= image_tag "col_scr.png", alt: "" %>
+            <div class="work-overlay text-center">
+              <div class="overlay-caption">
+                <h4>Comill screen</h4>
+
+                <p>These are available in various sizes as per specification of machine available from 0.1mm to 25mm hole diameter. In perforation sizes below 0.5mm can be had in laser perforation also available in grater, square series.</p>
+<!--                 <a class="btn-view" href="#">VIEW <i class="fa fa-angle-right"></i></a>
+ -->              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 milling" >
+          <div class="works">
+            <%= image_tag "turbo_scr.png", alt: "" %>
+            <div class="work-overlay text-center">
+              <div class="overlay-caption">
+                <h4>Turbo Multimill screen</h4>
+
+                <p>These are used in a single machine together available from 0.1mm to 25.0mm perforation. The size below 0.5mm can be had in the laser perforation known as laser technology available with complete set of certificate.</p>
+<!--                 <a class="btn-view" href="#">VIEW <i class="fa fa-angle-right"></i></a>
+ -->              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Granulation Products -->
+        <div class="col-md-4 col-sm-6 col-xs-12 branding" >
+          <div class="works">
+            <%= image_tag "ocr_scr.png", alt: "" %>
+            <div class="work-overlay text-center">
+              <div class="overlay-caption">
+                <h4>Oscillating  Granulator Screen</h4>
+
+                <p>These are available in various sizes according to the machine size. The Most Common Size is 488mm width * 510mm length, available from 0.1mm to 25mm hole diameter, size below 0.5mm and odd size perforation is achieved by laser perforation S.L.E. Technology, also available in triangular grater (TG) and spherical grater (SG) available with complete set of certificate.</p>
+<!--                 <a class="btn-view" href="#">VIEW <i class="fa fa-angle-right"></i></a>
+ -->              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Granulation -->
+        <!-- Sifting -->
+        <div class="col-md-4 col-sm-6 col-xs-12 design" >
+          <div class="works">
+            <%= image_tag "silicon_scr.png", alt: "" %>
+            <div class="work-overlay text-center">
+              <div class="overlay-caption">
+                <h4>Silicon Moulded shifter sieves</h4>
+
+                <p>These are available in various sizes from 12” to 48” diameter. The most common size used is 20” (550mm) & 30” diameter (750mm). The silicon is food grade quality, transparent in appearance. Non toxic & molded on the stainless steel ring. The mesh sizes varies from 04 mesh to 500 mesh with A.S.T.M. Standard being certified on 90x microscope with complete set of certificates.</p>
+<!--                 <a class="btn-view" href="#">VIEW <i class="fa fa-angle-right"></i></a>
+ -->              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 design" >
+          <div class="works">
+            <%= image_tag "special_scr.png", alt: "" %>
+            <div class="work-overlay text-center">
+              <div class="overlay-caption">
+                <h4>Special Static Current passable Sieves</h4>
+
+                <p>These are available in various sizes from 12” to 48” Diameter, the most common size used is 20” ( 550mm ) & 30” ( 750mm ) S.C.P.S Polymer is available in light blue, dark blue & white colour with Static Current Passable properties of 10/7 to 10/8 ohms. The codification is done by laser machine on the periphery of sieve</p>
+<!--                 <a class="btn-view" href="#">VIEW <i class="fa fa-angle-right"></i></a>
+ -->              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 design" >
+          <div class="works">
+            <%= image_tag "z_type_scr.png", alt: "" %>
+            <div class="work-overlay text-center">
+              <div class="overlay-caption">
+                <h4>Z Type Shifter Sieves</h4>
+
+                <p>Available in various sizes from 550mm to 1200mm. Available in silicon moulding and also in static current passable sieve (S.C.P.S) design & also in stainless steel border. Sieves suitable for Sweco, Russell, Penwalt sifters & all Indian machine manufacturers.
+                
+                <ul >
+                  <li> 
+                    Sweco is a business unit of M.I.LLC which is not in any way affiliated to Atlanto Enterprises.
+                  </li>
+                  <li>
+                    Penwalt is not in any way affiliated to Atlanto Enterprises.
+                  </li>
+                </ul>
+                </p>
+<!--                 <a class="btn-view" href="#">VIEW <i class="fa fa-angle-right"></i></a>
+ -->              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Shiftting -->
+        <!-- Drying Products -->
+        <div class="col-md-4 col-sm-6 col-xs-12 development" >
+          <div class="works">
+            <%= image_tag "fbd_scr.png", alt: "" %>
+            <div class="work-overlay text-center">
+              <div class="overlay-caption">
+                <h4>FBD sieves</h4>
+
+                <p>These are available in various sizes from 30kgs to 200kgs. Sieves used are dutch woven screen, hollender Screen. The most common sizes used is 24*110#. When product size is less 30*150 mesh and 40*200 mesh is used only round cut sieve is available and option of silicon moulding on the periphery is also offered. Available with complete set of certificate. Special sieve Static current passable sieves also available.</p>
+<!--                 <a class="btn-view" href="#">VIEW <i class="fa fa-angle-right"></i></a>
+ -->              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 development" >
+          <div class="works">
+            <%= image_tag "fbd_dry_scr.png", alt: "" %>
+            <div class="work-overlay text-center">
+              <div class="overlay-caption">
+                <h4>FBE Dryer Sieves</h4>
+
+                <p>These are available in various sizes from 125 Liters to 800 Liters sieves used are dutch woven screen, hollender Screen. The most common sizes used is 24*110# & 40*200 mesh is used. Only normal cut sieve is available & option of silicon moulding. On the periphery is also offered. Available with complete set of certificate. Special sieve Static current passable sieves also available.</p>
+<!--                 <a class="btn-view" href="#">VIEW <i class="fa fa-angle-right"></i></a>
+ -->              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Drying -->
+        <!-- Other Products -->
+        <div class="col-md-4 col-sm-6 col-xs-12 strategy" >
+          <div class="works">
+            <%= image_tag "test_scr.png", alt: "" %>
+            <div class="work-overlay text-center">
+              <div class="overlay-caption">
+                <h4>Test sieves</h4>
+
+                <p>These are available in various sizes 4”, 8”, 12”, 18” & 24”. The most common size is 8” diameter in brass & stainless steel frame from 04 mesh to 500 mesh. These are available with complete set of certificates.</p>
+<!--                 <a class="btn-view" href="#">VIEW <i class="fa fa-angle-right"></i></a>
+ -->              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 strategy" >
+          <div class="works">
+            <%= image_tag "hand_scr.png", alt: "" %>
+            <div class="work-overlay text-center">
+              <div class="overlay-caption">
+                <h4>Hand Sieving Frames</h4>
+
+                <p>These are available in various sizes & shapes commonly used is round or square shape used for hand filtration purpose or used on a container on drum. Also available detachable type sieving frame. Available from 4 mesh to 500 mesh, these are with complete set of certificates.</p>
+<!--                 <a class="btn-view" href="#">VIEW <i class="fa fa-angle-right"></i></a>
+ -->              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 strategy" >
+          <div class="works">
+            <%= image_tag "wire_scr.png", alt: "" %>
+            <div class="work-overlay text-center">
+              <div class="overlay-caption">
+                <h4>Wire Mesh</h4>
+
+                <p>These are available in various sizes from 2 mesh to 600 mesh upto 10 microns. Different widths are available as per requirement, the most common width is 1 meter & 1.2 meters. Available with complete set of certificate.
+We also manufacture Filter cloth and Demister pads.</p>
+<!--                 <a class="btn-view" href="#">VIEW <i class="fa fa-angle-right"></i></a>
+ -->              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 col-sm-6 col-xs-12 strategy" >
+          <div class="works">
+            <%= image_tag "detachable_scr.png", alt: "" %>
+            <div class="work-overlay text-center">
+              <div class="overlay-caption">
+                <h4>Detachable Sieveing Frame</h4>
+
+                <p>These are specially designed sieves where the user can retain the container and can change the sieves. when required, sieve is fixed between top and bottom portion with clamp, available in various size. 100% lead free design with complete set of certificates.</p>
+<!--                 <a class="btn-view" href="#">VIEW <i class="fa fa-angle-right"></i></a>
+ -->              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Other Products -->
+      </div> 
+    </div>
+  </div>
+</section>
+<section id="get-in-touch" data-stellar-background-ratio="0.7">
+  <div class="action-overlay"></div>
+  <div class="container">
+    <div class="row text-center">
+      <div class="col-sm-12"   data-sr="enter top, hustle 60px">
+        <h1 class="action-title">Do you like OUR WORK so far? <br>
+          Let's talk about YOUR PROJECT!</h1>
+        <a href="#" class="btn btn-action">Get in Touch</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="recent-posts">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <h1 class="section-title">Recent blog posts</h1>
+
+        <p class="sec-subtitle">We offer ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
+      </div>
+    </div>
+    <div class="posts-area"  data-sr="enter left, hustle 60px">
+      <div class="row">
+        <div class="col-sm-5 post-thumb">
+          <%= image_tag "post-thumb2.png", alt: "", class: 'img-responsive' %>
+
+        </div>
+        <div class="col-sm-7 post-content">
+          <div class="post-header clearfix">
+            <div class="post-date pull-left">
+              <h1>18</h1>
+
+              <p>OCT</p>
+            </div>
+            <div class="post-title pull-left">
+              <h4><a href="#">dolor sit amet, consetetur sadipscing elitr amet</a></h4>
+
+              <p>By <a href="#">Shamim</a> in <a href="#">Development</a></p>
+            </div>
+          </div>
+          <div class="post-body clearfix">
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+              inviduntlabore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+              et justo duo dolores et erebum. Stet clita kasd gubergren, no sea takimata sanctus est
+              Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+              diam nonumy eirmod tempor invidunt ut labore et dolore aliquyam erat, sed diam
+              voluptua.sed
+              diam nonumy eirmod tempor invidunt ut labore et dolore aliquyam erat, sed diam voluptua.
+              At vero eos etamet, et accusam et justo duo </p>
+
+            <p><a href="#">Read More</a></p>
+          </div>
+        </div>
+      </div>
+    </div> <!-- / Recent Post-->
+    <div class="posts-area"  data-sr="enter right, hustle 60px">
+      <div class="row">
+        <div class="col-sm-5 post-thumb">
+          <%= image_tag "post-thumb.png", alt: "", class: 'img-responsive' %>
+
+        </div>
+        <div class="col-sm-7 post-content">
+          <div class="post-header clearfix">
+            <div class="post-date pull-left">
+              <h1>18</h1>
+
+              <p>OCT</p>
+            </div>
+            <div class="post-title pull-left">
+              <h4><a href="#">dolor sit amet, consetetur sadipscing elitr amet</a></h4>
+
+              <p>By <a href="#">Shuhagh</a> in <a href="#">Design</a></p>
+            </div>
+          </div>
+          <div class="post-body clearfix">
+            <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+              inviduntlabore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+              et justo duo dolores et erebum. Stet clita kasd gubergren, no sea takimata sanctus est
+              Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+              diam nonumy eirmod tempor invidunt ut labore et dolore aliquyam erat, sed diam
+              voluptua.sed
+              diam nonumy eirmod tempor invidunt ut labore et dolore aliquyam erat, sed diam voluptua.
+              At vero eos etamet, et accusam et justo duo </p>
+
+            <p><a href="#">Read More</a></p>
+          </div>
+        </div>
+      </div>
+    </div> <!-- / Recent Post-->
+  </div>
+</section>
+<section id="testimonial">
+  <div class="container text-center">
+    <div class="row ">
+      <div class="col-sm-12">
+        <ul class="list-inline clients">
+          <li data-sr='enter top, wait 0.2s'>
+            <%= image_tag "deorham.png", alt: ""%>
+          </li>
+          <li data-sr='enter top, wait 0.2s'>
+            <%= image_tag "mmedia.png", alt: ""%>
+          </li>
+          <li data-sr='enter top, wait 0.2s'>
+            <%= image_tag "ratings.png", alt: ""%>
+          </li>
+          <li data-sr='enter top, wait 0.2s'>
+            <%= image_tag "wopify.png", alt: ""%>
+          </li>
+          <li data-sr='enter top, wait 0.2s'>
+            <%= image_tag "bcause.png", alt: ""%>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-10 col-md-offset-1"  data-sr='enter bottom, wait 0.2s'>
+        <div id="owl-testimonial" class="owl-carousel">
+          <div class="item">
+            <div class="testimonials">
+              <p class="testimonial-text">"Hvaing placeat facere possimus, omnis voluptas assumenda
+                est,
+                omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut
+                rerum”</p>
+
+              <p class="testimonial-author">John Doe, Google Inc.</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonials">
+              <p class="testimonial-text">"Hvaing placeat facere possimus, omnis voluptas assumenda
+                est,
+                omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut
+                rerum”</p>
+
+              <p class="testimonial-author">Shamim Shuhagh, ShapedTheme.</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="testimonials">
+              <p class="testimonial-text">"Hvaing placeat facere possimus, omnis voluptas assumenda
+                est,
+                omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut
+                rerum”</p>
+
+              <p class="testimonial-author">Jacob Brunette, Google Inc.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> <!-- / Container-->
+</section>
+<!-- / Testimonial-->
+
+<!--Contact-->
+<section id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        <h1 class="section-title">Contact</h1>
+
+        <p class="sec-subtitle">We offer ipsum dolor sit amet, consetetur sadipscing elitr amet</p>
+      </div>
+      <div class="col-sm-4" data-sr="enter left, hustle 80px">
+        <div class="address">
+          <p class="address-title title"><i class="fa fa-map-marker"></i> Address</p>
+
+          <p class="address-content">312, 7th Ave, New York <br>
+            NY 101200, United States of America</p>
+        </div>
+        <div class="address">
+          <p class="address-title title"><i class="fa fa-mobile-phone"></i> Hotline (24x7)</p>
+
+          <p class="address-content">+91 9033 857 960, +65 88251 210 <br>
+            +88 01723 511 340</p>
+        </div>
+        <div class="address">
+          <p class="address-title title"><i class="fa fa-envelope-o"></i> E-mail</p>
+
+          <p class="address-content">sp98484@gmail.com <br>hello@shapedtheme.com</p>
+        </div>
+      </div>
+      <div class="col-sm-8" data-sr="enter right, hustle 80px">
+        <form class="st-form">
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="form-group ">
+                <input type="text" class="form-control" placeholder="YOUR NAME">
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-group ">
+                <input type="text" class="form-control" placeholder="YOUR E-MAIL">
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-6">
+              <div class="form-group ">
+                <input type="text" class="form-control" placeholder="YOUR SUBJECT">
+              </div>
+            </div>
+            <div class="col-sm-6">
+              <div class="form-group ">
+                <input type="text" class="form-control" placeholder="COMPANY NAME">
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group ">
+            <textarea class="form-control" rows="4" placeholder="WRITE YOUR MESSAGE"></textarea>
+          </div>
+          <button type="submit" class="btn btn-send">Sign in</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- / Contact-->
+<!--Footer-->
+<footer id="footer">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12 text-center" data-sr='enter bottom, wait 0.32s'>
+        <div class="social">
+          <ul class="list-inline">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+          </ul>
+        </div>
+
+        <p>&copy; 2018 Startup, Designed by <a href="https://shapedtheme.com">Shailesh Prajapati</a></p>
+      </div>
+    </div>
+  </div>
+</footer>
+<!-- / Footer-->
+
+</body>
+  <script type="text/javascript">
+    $( document ).ready(function() {
+      $(".current").click();
+    });
+  </script>
+</html>

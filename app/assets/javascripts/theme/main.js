@@ -116,7 +116,7 @@
         //  Typed JS
         //====================================
                 $(".element").typed({
-                    strings: ["STARTUP!", "OUR SITE!"],
+                    strings: ["Perfect Pharma Sieves Solution", "Perfect Pharma Sieves Solution"],
                     typeSpeed: 300,
                     loop: true,
                     cursorChar: "|",
